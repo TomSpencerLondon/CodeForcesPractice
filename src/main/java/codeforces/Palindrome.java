@@ -13,7 +13,7 @@ public class Palindrome {
       }
     }
 
-    if (count == 1 || possible.length() == 1){
+    if (count == 1 || possible.length() == 1 || (count == 0 && possible.length() % 2 != 0)){
       System.out.println("YES");
     }else {
       System.out.println("NO");
